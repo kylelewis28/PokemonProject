@@ -1,0 +1,26 @@
+/* this sets the bacground color 
+how much the background takes up the screen
+line 9 controles how high or low the box is..the higher the number
+the lower the display appears  */
+body {
+    background-color: #76ffb4;
+    margin: 68;
+    font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  }
+  /* This controls the white box and how much it takes up the screen */
+  .container {
+    margin: auto;
+    padding: .5rem;
+  background-color: rgb(16, 183, 141);
+  border: solid 1px gray;
+  border-radius: 45px;
+  box-shadow:
+    0 4px 8px 34 rgba(0, 0, 0, 0.2),
+    0 6px 20px 34 rgba(0, 0, 0, 0.19);
+  }
+  /* this controls the length */
+.container > h1 {
+    margin: 0 0 .5rem;
+  }
